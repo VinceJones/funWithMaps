@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+.loading {
+    display: block;
+    margin: 10px auto;
+}
+
+#googleMap {
+    margin: 10px auto;
+}
