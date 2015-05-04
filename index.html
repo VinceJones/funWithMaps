@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>City Information</title>
+
+    <meta name="description" content="Webpage">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+<div class="jumbotron header">
+    <h1>See where you are on a map!</h1>
+    <div class="getLocation">
+        <p class="lead">Get your Location</p>
+        <button class="getLocate">Locate</button>
+        <div class="radioBtns hidden">Show Parks:
+            <input type="radio" name="parks" value="true" id="parksBtnTrue" checked>On
+            <input type="radio" name="parks" value="false" id="parksBtnFalse">Off
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div id="googleMap" style="width:500px;height:380px;"></div>
+    <p class="coord"></p>
+</div>
+
+
+</body>
+</html>
